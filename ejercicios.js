@@ -63,4 +63,17 @@ if ( a > b) {
 let hoyEsMartes = true;
 let inicioamosElCurso = false;
 
-let valorVerdad = hoyEsMartes && inicioamosElCurso;
+//and
+let and_ = hoyEsMartes && inicioamosElCurso;
+console.log("and", and_);
+//or
+
+let or_ = hoyEsMartes || inicioamosElCurso;
+console.log("or", or_);
+
+let noEsMartes = !hoyEsMartes;
+console.log("!hoyEsMartes", noEsMartes);
+
+let noIniciamosElCurso = !inicioamosElCurso;
+console.log("!noIniciamosElCurso", noIniciamosElCurso);
+
