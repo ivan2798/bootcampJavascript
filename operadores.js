@@ -1,9 +1,9 @@
 //matematicos
 /*
-+
--
-*
-/
+* +
+* -
+* *
+* /
 */
 
 let a = 10;
@@ -35,10 +35,10 @@ console.log(resultado);
 
 //relacionales 
 /*
-<
->
-<=
->=
+* <
+* >
+* <=
+* >=
 */
 
 let edadCarlos = 29;
