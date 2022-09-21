@@ -22,10 +22,34 @@ console.log("Resultado de a > b",c);
 
 let x,y,z;
 
-x = prompt("Ingrese el valor de x");
-y = prompt("Ingrese el valor de y");
-z = prompt("Ingrese el valor de z");
+a = prompt("Ingrese el valor de x");
+b = prompt("Ingrese el valor de y");
 
-console.log("Ha ingresado el valor de x",x);
-console.log("Ha ingresado el valor de y",y);
-console.log("Ha ingresado el valor de z",z);
+//if
+if (a > b) {
+    console.log("b es mayor");
+}else{
+    if (b > a) {
+        console.log("b es mayor");
+    } else {
+        console.log("a y b son iguales");
+    }
+}
+
+/*
+if ( a > b) {
+    console.log("a es mayor");
+} else if( b < a){
+    console.log("b es mayor");
+} else {
+    console.log("son iguales");
+}
+*/
+/*-----------------------------*/
+
+/**
+ * Operadores logicos
+ * and 
+ * or
+ * not
+ */
