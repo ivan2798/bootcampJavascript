@@ -52,4 +52,15 @@ if ( a > b) {
  * and 
  * or
  * not
+ * 
+ * A        B           A&&B
+ * true      true        true
+ * true      false       false
+ * false     true        false
+ * false     false       false
  */
+
+let hoyEsMartes = true;
+let inicioamosElCurso = false;
+
+let valorVerdad = hoyEsMartes && inicioamosElCurso;
